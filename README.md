@@ -22,7 +22,7 @@ src/constants/widget-types.js
 
 #### (3) Components
 ```ruby
- src/components/widget/widget-components/
+ src/components/widget/widget-components
   ```
 (3.1) create `my-widget-name` folder and inside it:
 
@@ -35,7 +35,7 @@ src/constants/widget-types.js
 ##### take one of the other widget components as a reference. they have all the same structure.
 #### (4) Empty state image
 ```ruby
- public/images/widgets/
+ public/images/widgets
   ```
 (4.1) add the new png image of the empty state 
 
@@ -43,7 +43,7 @@ src/constants/widget-types.js
 
 #### (5) Icon.svg file
 ```ruby
-src/icons/
+src/icons
 ```
 
 (4.1) add the new icon.svg file - make sure height is set to "100%"
