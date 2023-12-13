@@ -1,8 +1,8 @@
 # readme
 
-### This readme file will guide you through the steps in order to create a new widget type on client-side
+## This readme file will guide you through the steps in order to create a new widget type on client-side
 
-#### (1) widget-type-services 
+### (1) widget-type-services 
 ```ruby
   src/services/widget-type-services
   ```
@@ -14,13 +14,13 @@
 
 (1.4) add `translations.json` file - add the displayed value as a translation
 
-#### (2) Constants
+### (2) Constants
 ```ruby
 src/constants/widget-types.js
 ```
 (2.1) add the new widget type to the file
 
-#### (3) Components
+### (3) Components
 ```ruby
  src/components/widget/widget-components
   ```
@@ -32,8 +32,8 @@ src/constants/widget-types.js
 
 (3.3) create `name-of-widget-component-styles.js` file
 
-##### take one of the other widget components as a reference. they have all the same structure.
-#### (4) Empty state image
+#### take one of the other widget components as a reference. they have all the same structure.
+### (4) Empty state image
 ```ruby
  public/images/widgets
   ```
@@ -41,7 +41,7 @@ src/constants/widget-types.js
 
 (4.2) in the `name-of-widget-widget-component.js` file,  add the new `imgSrc` prop in the `EmptyState` component
 
-#### (5) Icon.svg file
+### (5) Icon.svg file
 ```ruby
 src/icons
 ```
