@@ -24,16 +24,28 @@ src/constants/widget-types.js
 ```ruby
  src/components/widget/widget-components/
   ```
-(3.1) create `my-widget-name` folder
+(3.1) create `my-widget-name` folder and inside it:
 
-(3.2) add `translations.json` file - there you will put the empty state title
+(3.2) create `translations.json` file - there you will put the empty state title text
 
-(3.2) add `src/components/widget/widget-components/my-direct-report/new-widget-component.js` file
+(3.2) create `name-of-widget-widget-component.js` file
 
-(3.3) add `src/components/widget/widget-components/my-direct-report/new-widget-component-styles.js` file
+(3.3) create `name-of-widget-component-styles.js` file
 
 ##### take one of the other widget components as a reference. they have all the same structure.
-#### 1. adding new empty state image
+#### (4) Empty state image
 ```ruby
- src/components/widget/widget-components/my-team-widget/my-team-widget-component-styles.js
+ public/images/widgets/
   ```
+(4.1) add the new png image of the empty state 
+
+(4.2) in the `name-of-widget-widget-component.js` file,  add the new `imgSrc` prop in the `EmptyState` component
+
+#### (5) Icon.svg file
+```ruby
+src/icons/
+```
+
+(4.1) add the new icon.svg file - make sure height is set to "100%"
+
+(4.2) import the new icon as a component - see refernece of other widget-type component
