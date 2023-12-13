@@ -49,3 +49,10 @@ src/icons
 (4.1) add the new icon.svg file - make sure height is set to "100%"
 
 (4.2) import the new icon as a component - see refernece of other widget-type component
+
+### (6) adding the new widget button to the adding options  
+```ruby
+src/components/home-view/home-view-component.js
+```
+(6.1) add to the `possibleWidgetTypes` the new widget type
+
